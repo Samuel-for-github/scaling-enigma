@@ -1,0 +1,60 @@
+ body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393e46;
+    gap: 20px;
+}
+
+
+h1{
+    margin-block: 0;
+    font-size: 8rem;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.player p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+footer{
+    margin-top: 10px;
+    
+}  
+
+
+
+@media (max-width: 620px) {
+    
+    h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    img{
+        width: 100px;
+    }
+    .player p{
+        font-size: 1rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 20px;
+    }
+    .container{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+       justify-content: space-between;
+    }
+    
+}
+
+
